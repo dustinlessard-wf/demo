@@ -1,0 +1,34 @@
+name: demo
+publish_to: https://pub.workiva.org
+version: 0.1.0
+description: This is my awesome demo project.
+documentation: https://docs.workiva.org/demo/latest/
+authors:
+  - Unknown
+homepage: https://github.com/Workiva/demo
+environment:
+  sdk: ">=1.24.2 <2.0.0"
+dependencies:
+
+dev_dependencies:
+  # Public third-party or Workiva OSS
+  coverage: "<0.11.0"
+  dart_dev: ^1.9.2
+  dependency_validator: ^1.1.0
+  test: ^0.12.32+1
+
+  # Private Workiva
+  abide:
+    hosted:
+      name: abide
+      url: https://pub.workiva.org
+    version: ^1.3.1
+  semver_audit:
+    hosted:
+      name: semver_audit
+      url: https://pub.workiva.org
+    version: ^1.4.1
+
+transformers:
+  - test/pub_serve:
+      $include: test/**_test.dart
