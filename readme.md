@@ -1,4 +1,4 @@
-# demo
+# My Demo
 
 This is my awesome demo project.
 
