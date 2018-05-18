@@ -1,0 +1,3 @@
+title: new_project
+base: github:Workiva/new_project/
+src: README.md

@@ -1,0 +1,1 @@
+export 'package:new_project/src/new_project_class.dart' show new_projectClass;
